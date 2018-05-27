@@ -1,14 +1,11 @@
 package com.wl.seekmarry.base;
 
-import android.annotation.TargetApi;
-import android.os.Build;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.view.Window;
-import android.view.WindowManager;
 
-import com.wl.seekmarry.R;
 import com.wl.seekmarry.app.App;
+
+import butterknife.ButterKnife;
 
 
 /**
@@ -22,7 +19,6 @@ public abstract class BaseActivity extends AppCompatActivity {
         App.context = this;
         setContentView(getLayoutId());
         ButterKnife.bind(this);
-
         init();
     }
 

@@ -5,6 +5,7 @@ import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.support.annotation.IdRes;
 import android.support.annotation.LayoutRes;
+import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.util.SparseArray;
 import android.view.LayoutInflater;
@@ -20,6 +21,7 @@ import java.util.List;
 
 /**
  * Created by hang on 2016/5/28.
+ * recyclerview   适配器
  */
 
 public abstract class MyBaseAdapter<T> extends RecyclerView.Adapter<MyBaseAdapter.MyViewHolder> {
