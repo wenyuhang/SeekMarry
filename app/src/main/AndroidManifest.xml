@@ -34,7 +34,16 @@
             </intent-filter>
         </activity>
 
+        <!--主页-->
         <activity android:name=".ui.home.HomeActivity"></activity>
+        <!--二维码-->
+        <activity android:name=".ui.home.UserCodeActivity"></activity>
+        <!--3D球-->
+        <activity android:name=".ui.home.ThreeDTagActivity"></activity>
+        <!--蜂巢-->
+        <activity android:name=".ui.home.HiveActivity"></activity>
+        <!--Twitter-->
+        <activity android:name=".ui.home.TwitterActivity"></activity>
 
         <!-- android7.0拍照 需要注册FileProvider -->
         <provider
